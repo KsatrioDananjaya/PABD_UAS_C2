@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace UASPABD
 {
-    public partial class Form1 : Form
+    public partial class Anggota : Form
     {
-        public Form1()
+        public Anggota()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
