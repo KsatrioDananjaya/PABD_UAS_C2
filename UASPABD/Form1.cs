@@ -21,5 +21,44 @@ namespace UASPABD
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Anggota fa = new Anggota();
+            fa.Show();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Pustakawan fp = new Pustakawan();
+            fp.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Buku fb = new Buku();
+            fb.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Kategori fk = new Kategori();
+            fk.Show();
+            this.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Penerbit fpe = new Penerbit();
+            fpe.Show();
+            this.Hide();
+        }
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

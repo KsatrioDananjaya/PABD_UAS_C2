@@ -84,8 +84,20 @@
     <Compile Include="Pustakawan.Designer.cs">
       <DependentUpon>Pustakawan.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Anggota.resx">
+      <DependentUpon>Anggota.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buku.resx">
+      <DependentUpon>Buku.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kategori.resx">
+      <DependentUpon>Kategori.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Penerbit.resx">
+      <DependentUpon>Penerbit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -96,6 +108,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Pustakawan.resx">
+      <DependentUpon>Pustakawan.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
